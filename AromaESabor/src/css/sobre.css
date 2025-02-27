@@ -1,0 +1,10 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+@media (max-width: 768px){
+	object{
+		height: 320px;
+	}
+}
