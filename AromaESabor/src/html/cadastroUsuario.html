@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/cadastroProdutos.css">
+<script defer src="../js/cadastro-usuario.js"></script>
+<title>Cadastro</title>
+</head>
+
+<body>
+	<header>
+		<iframe src="./menu.html" width="100%" height="150px"
+			style="border: none"></iframe>
+	</header>
+	<main>
+		<div id="main">
+
+			<div id="div1">
+				<div id="div2">
+					<img src="../img/bgUserDiv2.png" alt="">
+				</div>
+			
+				<div id="div3">
+					<form id="cadastroUsuario" action="#" method="post">
+
+						<label for="name">Nome Completo</label> 
+						<input type="text" name="name" id="name" placeholder="Digite o nome e o sobrenome" class="inputComum" required>
+						
+						<label for="cpf">CPF</label> 
+						<input type="text" id="price" name="cpf" placeholder="Digite os núemeros do CPF; 000.000.000-00" class="inputComum" required> 
+						
+						<label for="phone">Telefone</label> 
+						<input type="text" name="phone" id="phone" placeholder="Digite o número de telefone" class="inputComum" required>
+						
+						<label for="email">E-mail</label> 
+						<input type="text" name="email" id="email" placeholder="Digite o endereço de E-mail" class="inputComum" required>
+						
+						<label for="password">Senha</label> 
+						<input type="password" name="password" id="password" placeholder="Digite a senha para login" class="inputComum" required>
+						
+						
+						<button type="submit" name="submit" form="cadastroUsuario">Cadastrar</button> 
+						<button type="reset" name="reset" form="cadastroUsuario">Limpar</button>
+					
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
